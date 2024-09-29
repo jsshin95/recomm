@@ -1,0 +1,1412 @@
+
+INSERT INTO seller (name, phone_number, email, business_number, business_address)
+VALUES ('Chris Bacon', '1177-8989', 'cpbacon99@kate.com', '987664221', '77 Yeez Street');	# Seller 3
+
+INSERT INTO seller (name, phone_number, email, business_number, business_address)
+VALUES ('Jon Hub', '4588-1967', 'j_hhub@goggle.com', '73456789', '808 Brown Avenue');		# Seller 4
+
+
+#-------------------------------------------------------------
+
+INSERT INTO item_category (name) VALUES ('Food');	# Category 4
+
+INSERT INTO item_category (name) VALUES ('Life');	# Category 5
+
+INSERT INTO item_category (name) VALUES ('Beauty');	# Category 6
+
+
+#------------------------------------------------------------------
+# insert item (151~300)
+
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (29900, 17750, '농심 푸팟퐁구리 큰사발면 104g, 16개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_151_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (55000, 22000, '더미식 장인라면 얼큰한맛 10개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_152_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (60000, 44990, '틈새 고기짬뽕, 40개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_153_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 22870, '왕뚜껑 봉지라면, 20개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_154_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (35000, 22000, 'halal ramen, x 10', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_155_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (18900, 17500, '불닭볶음면 봉지라면, 10봉', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_156_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (20000, 9900, '짜파게티, x 10입', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_157_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 22800, '농심 배홍동 10개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_158_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (28900, 21750, '간짬뽕, 10개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_159_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (30000, 25500, '삼양라면 20개입', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_160_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (9900, 8750, '누룽지 백숙 x 2', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_161_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (14800, 12590, '오뚜기 3분 카레 10개입', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_162_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 19990, '리챔 x20', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_163_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (23000, 18550, '마일드참치 5개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_164_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19990, 15480, '사양 허니벌꿀', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_165_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 9900, '우리쌀국수 소면, x4봉', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_166_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (9500, 7480, '알리오올리오 파스타 건면', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_167_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 5900, '교동돼지국밥 5봉', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_168_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (30000, 27500, '미트볼 180g, 12개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_169_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 12500, '오뚜기 칼칼한 돼지고기김치찜, 180g, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_170_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (29000, 15500, '한우물 구운주먹밥 참치마요 소불고기 치즈닭갈비 3종 1세트 총12개, 500g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_171_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 15000, '차오차이 홍콩식 마파두부, 180g, 3개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_172_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (28000, 17800, '곰곰 삼계탕, 800g, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_173_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 8480, '아워홈 소고기 미역국 300gX2개, 300g, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_174_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 14580, '차오차이 홍콩식 마파두부, 180g, 3개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_175_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (1600, 1500, '청정원 호밍스 사골곰탕, 1개, 300g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_176_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (20000, 18500, '블루존 오뚜기3분소스세트(미트볼2+햄버그스테이크2+쇠고기짜장2+쇠고기카레2) 8입, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_177_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 8500, '오뚜기 옛날 육개장 300g, 4개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_178_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (35000, 29980, '곰곰 더 오리지널 부대찌개, 1kg, 4개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_179_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (5000, 4000, '풀무원 한끼 몽글 순두부 짬뽕 순두부탕 냉장, 277g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_180_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 9500, '샘표 미소된장국 미소된장국40g 336342EA, 40g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_181_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (17000, 16500, '뽀로로 까르보나라 떡볶이, 115g, 3개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_182_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (7900, 6900, '칠구 즉석 떡볶이 수제로 만든 생밀떡떡볶이세트 중간맛, 1세트, 530g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_183_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (20000, 19500, '인천 남동공단 떡볶이 택배 밀키트 3인분, 1개, 500g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_184_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (4000, 3800, '비비드그린 비건 라구, 180g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_185_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (3000, 2900, '선인 밀또띠아 6인치 360g [12매] 인도산, 12개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_186_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (35000, 32500, '고기대신 비건 콩고기, 500g, 4개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_187_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (5900, 5800, '인도네시아 인도 밀크 스위트드컨덴센 팩 545g 연유, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_188_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 19980, '레인보우과일큐브치즈 단품2팩 구성 [블랙2팩] 레인보우큐브MIX! 2pack, 80g, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_189_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (5000, 3900, '냉동마 KHAAI MA WORLDFOOD, 1개, 500g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_190_thumbnail.jpg", false, false, 2, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (6500, 6300, '창구식품 찰순대 1kg 냉장식품, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_191_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (4900, 4750, '코렁맨 소스포함 475g, 475g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_192_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (20000, 12500, '밥도둑 백명란 파지 500g 외 젓갈, 명란비빔장 250g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_193_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (3500, 3200, '아임닭 닭가슴살 씨쓰루만두 청양고추맛 1/4/8/12/16, 180g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_194_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 9800, '엘에프푸드 다루마 낫또 44.8g x 3개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_195_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 9500, '프레스코 베이컨 토마토 리조또 (250G), 2개, 250g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_196_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (50000, 49500, '저당 곤약현미김밥 흑미계란 220g, 10개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_197_thumbnail.jpg", false, false, 3, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 37500, '한정식집 수제잡채(275gX5개), 275g, 5개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_198_thumbnail.jpg", false, false, 4, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 23500, '푸른빈 메밀가루, 1개, 1kg', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_199_thumbnail.jpg", false, false, 1, 4);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (30000, 29800, '모구모구 320mL, 24개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_200_thumbnail.jpg", false, false, 2, 4);
+
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 19900, '엘라스틴 프로틴 클리닉 단백질 고영양 샴푸 플로럴 머스크향, 1L, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_201_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (49000, 45000, '뷰카 클래식 딥 퍼퓸 골든 리페어 탈모 샴푸 코튼머스크향, 1050ml, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_202_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19000, 14800, '로레알파리 엑셀랑스 파리지앵 시크 염모제, 6 12 애쉬퍼플, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_203_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (25000, 22480, '정성 매직팬티, 특대형, 10개입, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_204_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 12900, '생활공작소 뽑아쓰는 키친타올 무표백, 100개입, 3개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_205_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 13500, '태극기3단 가정용태극기세트 벽꽃이포함 4종, 혼합색상, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_206_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199000, 158000, '호신용가스총 V3.0 이글, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_207_thumbnail.jpg", false, false, 2, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 37800, '델파 강화 플라스틱 삼단 호신봉 DP-N8, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_208_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19900, 18750, '배리툴 고강도 합금 호신용 핑거 너클 블랙 + 파우치 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_209_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (380000, 55000, '호신용 전기충격기 여자 미니 호신용품 다기능 충격기 자기방어 조명, 블랙, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_210_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (400000, 199000, '호신용 전기충격기 테이저건 BC전기충격기, 다크그레이, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_211_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (158000, 147800, '아이월드세이프텍 V3.0 터보 호신용 가스 스프레이 총, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_212_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 8800, '호신용 글러브 너클 골드 T0019, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_213_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (50000, 48000, '뷰캐스터 우레탄 고탄성 호신봉 몽둥이 호신용품, 소형, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_214_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (250000, 245000, '국산 폴리카보네이트 경찰방패 투명방패 진압방패 호신용방패, 폴리카보네이트 투명, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_215_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 12780, '탐사 무타공 클립형 치약걸이 2p + 칫솔걸이 4p 세트, 혼합색상, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_216_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (10000, 9750, '스타리움 다용도 뚜껑 봉지집게 밀봉스틱 소형 5p + 대형 2p 세트, 화이트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_217_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15000, 12770, '코멧 봉지집게 중형 10p + 대형 10p + 특대형 10p, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_218_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (33500, 27850, '꼭꼬핀 파워 일자형, 화이트, 30개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_219_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (38000, 37500, '헤트라스 프리미엄 대용량 디퓨저 500ml 2개 선물세트, 플라워 샵', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_220_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (35000, 32100, '부케가르니 디퓨저, 베이비파우더, 200ml, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_221_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (7000, 6900, '복스 니코제로 비타민 천연 허브스틱, 레몬, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_222_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (18900, 10780, '펨펨 레드 워밍 마사지 젤, 360g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_223_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19900, 17900, '수용성 나이트 저자극 무향, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_224_thumbnail.jpg", false, false, 2, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (100000, 89500, '왕자 바디 마사지 크림, 100ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_225_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (38000, 29800, '코멧 다용도 데일리 분리수거함 3P, 블랙, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_226_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39800, 35500, '모노플랫 싱크대 걸이형 음식물 쓰레기통 3L, 화이트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_227_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19000, 18800, '레인보우샵 톡톡이 삼총사 베이킹소다 500g + 구연산 420g + 과탄산소다 프리미엄 500g, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_228_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (55000, 52500, '르메이드 스테인레스 음식물 쓰레기통, 화이트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_229_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (48000, 45500, '히말라야 핑크솔트 선물세트 38호 + 쇼핑백, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_230_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (38000, 34800, '코멧 일회용 마스크, 100개입, 1개, 화이트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_231_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 29700, '미국아마존히트-셔프트러스트 한쪽 어깨보호대 남녀공용, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_232_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (190000, 125000, '다용도 노인 보행 보조차 브라운체크, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_233_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (100000, 29800, '셔프트러스트 어깨보호대 여성용, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_234_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199000, 49700, '다다터 지팡이 의자 노인 할머니 선물 캠핑 휴대용, 1개, LED블랙', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_235_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69900, 39450, '다다터 엘보클러치 재활 팔꿈치 접이식 목발 보행보조기구, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_236_thumbnail.jpg", false, false, 2, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (35000, 32500, '츄파춥스 차량용 벤트형 통풍구 방향제 2p, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_237_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 62500, '고령자용 2단 손잡이 더블 바퀴워커 보행 보조차, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_238_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (155000, 149000, '스마트덕 편백나무 천연 가습기, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_239_thumbnail.jpg", false, false, 2, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (58000, 46700, '디어 휠체어방석 엉덩이 꼬리뼈 쿠션, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_240_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199000, 55800, '온다숲 국내산 반영구 천연가습기 정화석, 7개, 1kg', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_241_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 37800, '스매쉬 스텐레스 공구함, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_242_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (1990000, 198000, '밀워키 팩아웃 백팩 48-22-8301, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_243_thumbnail.jpg", false, false, 2, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (29900, 17050, '스마토 하드박스 부품함 카메라박스 장비케이스, SM-HB296, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_244_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 67500, '가야라이프 폴리 원단 5종 세트 KL-800, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_245_thumbnail.jpg", false, false, 1, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (1900, 1800, '휴대용 미니 줄자, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_246_thumbnail.jpg", false, false, 4, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (1800, 1750, '산림기능사 실기용 와이어로프 6파이 1미터 1.5미터 2미터 송곳 절단 화이팅, 6파이-1M절단, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_247_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19900, 9900, '틸그린 비접촉 검전기펜, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_248_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (38000, 15000, '실납 용접 납땜 저온 와이어납, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_249_thumbnail.jpg", false, false, 3, 5);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (29900, 27800, '카멜로 자동차 정비 공구 가죽 작업 장갑 양손 4세트 701-YL, 4개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_250_thumbnail.jpg", false, false, 2, 5);
+
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199000, 125000, '헤라 파워부스팅 스페셜 본품 2종 + 견본 3종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_251_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (128000, 39900, '바이탈 골든 콜라겐 스페셜 기초화장품 스킨케어 5종 세트+쇼핑백, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_252_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 36900, '라운드랩 독도 토너 200ml + 로션 200ml 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_253_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 57580, '닥터지 레드 블레미쉬 시카 토너 200ml + 로션 150ml 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_254_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (120000, 99000, '코리아나 발효화이트닝 3종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_255_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (89000, 86500, '미샤 타임 레볼루션 나이트 리페어 2종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_256_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (48000, 36800, '은율 콜라겐 5종세트 + 쇼핑백, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_257_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (79000, 77800, '프리메라 오가니언스 베리어 리페어 2종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_258_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (59000, 38600, '토니모리 트리플 콜라겐 토탈 텐션 2종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_259_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 35380, '한율 어린쑥 수분진정 2종 세트 토너 + 플루이드, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_260_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (190000, 48990, '참존 탑클래스 7세대 리프팅 스킨케어 4종 선물세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_261_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39800, 35800, '편강율 진정 라인 기초 화장품 선물 3종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_262_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (110000, 58000, '오휘 익스트림 화이트 기초화장품 2종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_263_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (49000, 47800, '케어존 닥터 솔루션 R아큐어 2종 기초 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_264_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (280000, 275000, '설화수 윤조 기초화장품 3종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_265_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (19000, 16900, '크리스마 3코튼 엠보 화장솜, 500매, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_266_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39800, 18900, '메이 쫀쫀 마스크팩 화장솜, 100개입, 3개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_267_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (15800, 14190, '메디플라워 엠보싱 소프트 화장솜, 300매, 4개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_268_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (38000, 35800, '뿌띠슈 쥬시글로스 01 레드루비 3.2g, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_269_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 64500, '리틀블링 시크릿쥬쥬 별의여신 유아립밤 5.5g, 5개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_270_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (180000, 69700, '밀크바오밥 베이비 앤 키즈 카밍 립밤, APPLE/사과향, 3.5g, 5개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_271_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (190000, 19900, '아토팜 촉촉한 키즈 컬러 립밤 레드 3.3gx2개, 2개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_272_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (59000, 56800, '아텍스 핑크퐁 아기상어 립케어 딸기향 2종 세트 3.8g, 2세트, 7.6g', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_273_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (155000, 79700, '코코힐리 아기 립밤 어린이 유아 컬러 립케어 오렌지 핑크, 3g, 5개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_274_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (28000, 27500, '로즈 멀티퍼포즈 프레쉬 미스트, 50ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_275_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 38800, '맥 텐더토크 립 밤, 프리티 미 업, 3g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_276_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (180000, 168000, '에이지 어웨이 에스테틱 3종 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_277_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (58000, 38000, '맥 파우더 키스 립스틱, 헬시 웰시 엔드 쓰라이빙, 3g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_278_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (49000, 47510, '숨37도 시크릿 에센스 45ml 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_279_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 37800, '록시땅 체리블라썸 핸드크림 + 립 밤 듀오 세트, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_280_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (38000, 31400, '록시땅 버베나 컬렉션 롤온 오 드 뚜왈렛, 10ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_281_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (49000, 39520, '윤조립밤, NO 030 페탈, 3g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_282_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (99000, 97500, '상백톤업 선크림 SPF50+ PA++++, 50ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_283_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (49000, 39900, '빌리프 오일 컨트롤 모이스춰라이저 후레쉬 로션, 125ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_284_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199000, 127540, '아베다 뉴트리플레니쉬 샴푸 딥 모이스처, 1000ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_285_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (9000, 6970, '록시땅 체리 블라썸 솝, 50g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_286_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 57500, '시세이도 더 퍼펙트 프로텍터 SPF50+ PA++++, 50ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_287_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (55000, 41900, '설화수 NEW 퍼펙팅 쿠션 파운데이션 리필 15g, 21N1 베이지, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_288_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (59000, 47790, '맥 170 신테틱 라운디드 슬랜트 브러시, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_289_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (49000, 42800, '맥 픽스 플러스 스테이 오버, 100ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_290_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (198000, 127600, '얼티밋 커버 스틱 파운데이션 15g, 1호 밀크베이지, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_291_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (57800, 47100, '맥 미네랄라이즈 블러쉬 4g, 휴머 미, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_292_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (69000, 62500, '얼티밋 핏 롱웨어 진 쿠션 15g + 리필 15g 세트, 01호 라이트 베이지, 1세트', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_293_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199000, 128870, '비오템 아쿠아파워 72H 수분 젤 크림, 50ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_294_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (58000, 51180, '바비브라운 퍼펙틀리 디파인드 롱웨어 브라우 펜슬, 마호가니, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_295_thumbnail.jpg", false, false, 3, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39800, 37300, '빌리프 UV 프로텍터 스탠바이유 베이직 비비크림 SPF50+ PA++++ 50ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_296_thumbnail.jpg", false, false, 1, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (79000, 69700, '스킨 틴트 컴피 스프레더 15g, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_297_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (89000, 69000, '랩시리즈 데일리 레스큐 에너자이징 페이스 로션, 50ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_298_thumbnail.jpg", false, false, 2, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (199800, 99000, '빌리프 유칼립투스 허벌 익스트랙트 토너, 200ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_299_thumbnail.jpg", false, false, 4, 6);
+
+INSERT INTO item (org_price, dis_price, name, thumbnail_url, is_recommended, is_soldout, seller_id, category_id)
+VALUES (39000, 35200, '크리니크 모이스춰 써지 립, 10ml, 1개', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_300_thumbnail.jpg", false, false, 3, 6);
+
+
+
+#-------------------------------------------
+# insert item_img (151~300)
+
+
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('농심 푸팟퐁구리 큰사발면 104g, 16개', 'item_151_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_151_thumbnail.jpg", 30, 151);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('더미식 장인라면 얼큰한맛 10개', 'item_152_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_152_thumbnail.jpg", 30, 152);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('틈새 고기짬뽕, 40개', 'item_153_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_153_thumbnail.jpg", 30, 153);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('왕뚜껑 봉지라면, 20개', 'item_154_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_154_thumbnail.jpg", 30, 154);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('halal ramen, x 10', 'item_155_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_155_thumbnail.jpg", 30, 155);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('불닭볶음면 봉지라면, 10봉', 'item_156_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_156_thumbnail.jpg", 30, 156);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('짜파게티, x 10입', 'item_157_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_157_thumbnail.jpg", 30, 157);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('농심 배홍동 10개', 'item_158_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_158_thumbnail.jpg", 30, 158);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('간짬뽕, 10개', 'item_159_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_159_thumbnail.jpg", 30, 159);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('삼양라면 20개입', 'item_160_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_160_thumbnail.jpg", 30, 160);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('누룽지 백숙 x 2', 'item_161_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_161_thumbnail.jpg", 30, 161);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('오뚜기 3분 카레 10개입', 'item_162_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_162_thumbnail.jpg", 30, 162);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('리챔 x20', 'item_163_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_163_thumbnail.jpg", 30, 163);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('마일드참치 5개', 'item_164_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_164_thumbnail.jpg", 30, 164);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('사양 허니벌꿀', 'item_165_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_165_thumbnail.jpg", 30, 165);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('우리쌀국수 소면, x4봉', 'item_166_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_166_thumbnail.jpg", 30, 166);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('알리오올리오 파스타 건면', 'item_167_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_167_thumbnail.jpg", 30, 167);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('교동돼지국밥 5봉', 'item_168_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_168_thumbnail.jpg", 30, 168);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('미트볼 180g, 12개', 'item_169_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_169_thumbnail.jpg", 30, 169);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('오뚜기 칼칼한 돼지고기김치찜, 180g, 2개', 'item_170_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_170_thumbnail.jpg", 30, 170);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('한우물 구운주먹밥 참치마요 소불고기 치즈닭갈비 3종 1세트 총12개, 500g', 'item_171_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_171_thumbnail.jpg", 30, 171);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('차오차이 홍콩식 마파두부, 180g, 5개', 'item_172_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_172_thumbnail.jpg", 30, 172);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('곰곰 삼계탕, 800g, 2개', 'item_173_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_173_thumbnail.jpg", 30, 173);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('아워홈 소고기 미역국 300gX2개, 300g, 2개', 'item_174_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_174_thumbnail.jpg", 30, 174);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('차오차이 홍콩식 마파두부, 180g, 3개', 'item_175_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_175_thumbnail.jpg", 30, 175);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('청정원 호밍스 사골곰탕, 1개, 300g', 'item_176_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_176_thumbnail.jpg", 30, 176);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('블루존 오뚜기3분소스세트(미트볼2+햄버그스테이크2+쇠고기짜장2+쇠고기카레2) 8입, 1세트', 'item_177_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_177_thumbnail.jpg", 30, 177);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('오뚜기 옛날 육개장 300g, 4개', 'item_178_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_178_thumbnail.jpg", 30, 178);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('곰곰 더 오리지널 부대찌개, 1kg, 4개', 'item_179_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_179_thumbnail.jpg", 30, 179);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('풀무원 한끼 몽글 순두부 짬뽕 순두부탕 냉장, 277g, 1개', 'item_180_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_180_thumbnail.jpg", 30, 180);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('샘표 미소된장국 미소된장국40g 336342EA, 40g, 1개', 'item_181_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_181_thumbnail.jpg", 30, 181);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('뽀로로 까르보나라 떡볶이, 115g, 3개', 'item_182_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_182_thumbnail.jpg", 30, 182);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('칠구 즉석 떡볶이 수제로 만든 생밀떡떡볶이세트 중간맛, 1세트, 530g', 'item_183_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_183_thumbnail.jpg", 30, 183);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('인천 남동공단 떡볶이 택배 밀키트 3인분, 1개, 500g', 'item_184_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_184_thumbnail.jpg", 30, 184);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('비비드그린 비건 라구, 180g, 1개', 'item_185_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_185_thumbnail.jpg", 30, 185);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('선인 밀또띠아 6인치 360g [12매] 인도산, 12개', 'item_186_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_186_thumbnail.jpg", 30, 186);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('고기대신 비건 콩고기, 500g, 4개', 'item_187_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_187_thumbnail.jpg", 30, 187);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('인도네시아 인도 밀크 스위트드컨덴센 팩 545g 연유, 1개', 'item_188_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_188_thumbnail.jpg", 30, 188);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('레인보우과일큐브치즈 단품2팩 구성 [블랙2팩] 레인보우큐브MIX! 2pack, 80g, 2개', 'item_189_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_189_thumbnail.jpg", 30, 189);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('냉동마 KHAAI MA WORLDFOOD, 1개, 500g', 'item_190_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_190_thumbnail.jpg", 30, 190);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('창구식품 찰순대 1kg 냉장식품, 1개', 'item_191_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_191_thumbnail.jpg", 30, 191);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('코렁맨 소스포함 475g, 475g, 1개', 'item_192_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_192_thumbnail.jpg", 30, 192);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('밥도둑 백명란 파지 500g 외 젓갈, 명란비빔장 250g, 1개', 'item_193_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_193_thumbnail.jpg", 30, 193);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('아임닭 닭가슴살 씨쓰루만두 청양고추맛 1/4/8/12/16, 180g, 1개', 'item_194_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_194_thumbnail.jpg", 30, 194);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('엘에프푸드 다루마 낫또 44.8g x 3개', 'item_195_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_195_thumbnail.jpg", 30, 195);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('프레스코 베이컨 토마토 리조또 (250G), 2개, 250g', 'item_196_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_196_thumbnail.jpg", 30, 196);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('저당 곤약현미김밥 흑미계란 220g, 10개', 'item_197_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_197_thumbnail.jpg", 30, 197);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('한정식집 수제잡채(275gX5개), 275g, 5개', 'item_198_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_198_thumbnail.jpg", 30, 198);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('푸른빈 메밀가루, 1개, 1kg', 'item_199_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_199_thumbnail.jpg", 30, 199);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('모구모구 320mL, 24개', 'item_200_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_200_thumbnail.jpg", 30, 200);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('엘라스틴 프로틴 클리닉 단백질 고영양 샴푸 플로럴 머스크향, 1L, 1개', 'item_201_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_201_thumbnail.jpg", 30, 201);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('뷰카 클래식 딥 퍼퓸 골든 리페어 탈모 샴푸 코튼머스크향, 1050ml, 2개', 'item_202_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_202_thumbnail.jpg", 30, 202);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('로레알파리 엑셀랑스 파리지앵 시크 염모제, 6 12 애쉬퍼플, 1개', 'item_203_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_203_thumbnail.jpg", 30, 203);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('정성 매직팬티, 특대형, 10개입, 1개', 'item_204_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_204_thumbnail.jpg", 30, 204);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('생활공작소 뽑아쓰는 키친타올 무표백, 100개입, 3개', 'item_205_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_205_thumbnail.jpg", 30, 205);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('태극기3단 가정용태극기세트 벽꽃이포함 4종, 혼합색상, 1세트', 'item_206_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_206_thumbnail.jpg", 30, 206);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('호신용가스총 V3.0 이글, 1개', 'item_207_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_207_thumbnail.jpg", 30, 207);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('델파 강화 플라스틱 삼단 호신봉 DP-N8, 1개', 'item_208_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_208_thumbnail.jpg", 30, 208);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('배리툴 고강도 합금 호신용 핑거 너클 블랙 + 파우치 세트, 1세트', 'item_209_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_209_thumbnail.jpg", 30, 209);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('호신용 전기충격기 여자 미니 호신용품 다기능 충격기 자기방어 조명, 블랙, 1개', 'item_210_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_210_thumbnail.jpg", 30, 210);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('호신용 전기충격기 테이저건 BC전기충격기, 다크그레이, 1개', 'item_211_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_211_thumbnail.jpg", 30, 211);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('아이월드세이프텍 V3.0 터보 호신용 가스 스프레이 총, 1개', 'item_212_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_212_thumbnail.jpg", 30, 212);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('호신용 글러브 너클 골드 T0019, 1개', 'item_213_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_213_thumbnail.jpg", 30, 213);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('뷰캐스터 우레탄 고탄성 호신봉 몽둥이 호신용품, 소형, 1개', 'item_214_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_214_thumbnail.jpg", 30, 214);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('국산 폴리카보네이트 경찰방패 투명방패 진압방패 호신용방패, 폴리카보네이트 투명, 1개', 'item_215_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_215_thumbnail.jpg", 30, 215);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('탐사 무타공 클립형 치약걸이 2p + 칫솔걸이 4p 세트, 혼합색상, 1세트', 'item_216_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_216_thumbnail.jpg", 30, 216);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('스타리움 다용도 뚜껑 봉지집게 밀봉스틱 소형 5p + 대형 2p 세트, 화이트, 1세트', 'item_217_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_217_thumbnail.jpg", 30, 217);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('코멧 봉지집게 중형 10p + 대형 10p + 특대형 10p, 1세트', 'item_218_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_218_thumbnail.jpg", 30, 218);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('꼭꼬핀 파워 일자형, 화이트, 30개', 'item_219_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_219_thumbnail.jpg", 30, 219);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('헤트라스 프리미엄 대용량 디퓨저 500ml 2개 선물세트, 플라워 샵', 'item_220_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_220_thumbnail.jpg", 30, 220);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('부케가르니 디퓨저, 베이비파우더, 200ml, 2개', 'item_221_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_221_thumbnail.jpg", 30, 221);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('복스 니코제로 비타민 천연 허브스틱, 레몬, 1개', 'item_222_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_222_thumbnail.jpg", 30, 222);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('펨펨 레드 워밍 마사지 젤, 360g, 1개', 'item_223_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_223_thumbnail.jpg", 30, 223);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('수용성 나이트 저자극 무향, 1개', 'item_224_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_224_thumbnail.jpg", 30, 224);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('왕자 바디 마사지 크림, 100ml, 1개', 'item_225_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_225_thumbnail.jpg", 30, 225);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('코멧 다용도 데일리 분리수거함 3P, 블랙, 1세트', 'item_226_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_226_thumbnail.jpg", 30, 226);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('모노플랫 싱크대 걸이형 음식물 쓰레기통 3L, 화이트', 'item_227_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_227_thumbnail.jpg", 30, 227);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('레인보우샵 톡톡이 삼총사 베이킹소다 500g + 구연산 420g + 과탄산소다 프리미엄 500g, 1세트', 'item_228_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_228_thumbnail.jpg", 30, 228);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('르메이드 스테인레스 음식물 쓰레기통, 화이트', 'item_229_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_229_thumbnail.jpg", 30, 229);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('히말라야 핑크솔트 선물세트 38호 + 쇼핑백, 1세트', 'item_230_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_230_thumbnail.jpg", 30, 230);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('코멧 일회용 마스크, 100개입, 1개, 화이트', 'item_231_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_231_thumbnail.jpg", 30, 231);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('미국아마존히트-셔프트러스트 한쪽 어깨보호대 남녀공용, 1개', 'item_232_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_232_thumbnail.jpg", 30, 232);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('다용도 노인 보행 보조차 브라운체크, 1개', 'item_233_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_233_thumbnail.jpg", 30, 233);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('셔프트러스트 어깨보호대 여성용, 1개', 'item_234_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_234_thumbnail.jpg", 30, 234);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('다다터 지팡이 의자 노인 할머니 선물 캠핑 휴대용, 1개, LED블랙', 'item_235_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_235_thumbnail.jpg", 30, 235);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('다다터 엘보클러치 재활 팔꿈치 접이식 목발 보행보조기구, 1개', 'item_236_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_236_thumbnail.jpg", 30, 236);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('츄파춥스 차량용 벤트형 통풍구 방향제 2p, 2개', 'item_237_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_237_thumbnail.jpg", 30, 237);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('고령자용 2단 손잡이 더블 바퀴워커 보행 보조차, 1개', 'item_238_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_238_thumbnail.jpg", 30, 238);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('스마트덕 편백나무 천연 가습기, 1개', 'item_239_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_239_thumbnail.jpg", 30, 239);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('디어 휠체어방석 엉덩이 꼬리뼈 쿠션, 1개', 'item_240_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_240_thumbnail.jpg", 30, 240);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('온다숲 국내산 반영구 천연가습기 정화석, 7개, 1kg', 'item_241_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_241_thumbnail.jpg", 30, 241);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('스매쉬 스텐레스 공구함, 1개', 'item_242_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_242_thumbnail.jpg", 30, 242);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('밀워키 팩아웃 백팩 48-22-8301, 1개', 'item_243_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_243_thumbnail.jpg", 30, 243);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('스마토 하드박스 부품함 카메라박스 장비케이스, SM-HB296, 1개', 'item_244_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_244_thumbnail.jpg", 30, 244);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('가야라이프 폴리 원단 5종 세트 KL-800, 1세트', 'item_245_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_245_thumbnail.jpg", 30, 245);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('휴대용 미니 줄자, 1개', 'item_246_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_246_thumbnail.jpg", 30, 246);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('산림기능사 실기용 와이어로프 6파이 1미터 1.5미터 2미터 송곳 절단 화이팅, 6파이-1M절단, 1개', 'item_247_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_247_thumbnail.jpg", 30, 247);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('틸그린 비접촉 검전기펜, 1개', 'item_248_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_248_thumbnail.jpg", 30, 248);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('실납 용접 납땜 저온 와이어납, 1개', 'item_249_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_249_thumbnail.jpg", 30, 249);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('카멜로 자동차 정비 공구 가죽 작업 장갑 양손 4세트 701-YL, 4개', 'item_250_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_250_thumbnail.jpg", 30, 250);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('헤라 파워부스팅 스페셜 본품 2종 + 견본 3종 세트, 1세트', 'item_251_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_251_thumbnail.jpg", 30, 251);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('바이탈 골든 콜라겐 스페셜 기초화장품 스킨케어 5종 세트+쇼핑백, 1세트', 'item_252_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_252_thumbnail.jpg", 30, 252);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('라운드랩 독도 토너 200ml + 로션 200ml 세트, 1세트', 'item_253_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_253_thumbnail.jpg", 30, 253);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('닥터지 레드 블레미쉬 시카 토너 200ml + 로션 150ml 세트, 1세트', 'item_254_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_254_thumbnail.jpg", 30, 254);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('코리아나 발효화이트닝 3종 세트, 1세트', 'item_255_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_255_thumbnail.jpg", 30, 255);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('미샤 타임 레볼루션 나이트 리페어 2종 세트, 1세트', 'item_256_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_256_thumbnail.jpg", 30, 256);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('은율 콜라겐 5종세트 + 쇼핑백, 1세트', 'item_257_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_257_thumbnail.jpg", 30, 257);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('프리메라 오가니언스 베리어 리페어 2종 세트, 1세트', 'item_258_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_258_thumbnail.jpg", 30, 258);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('토니모리 트리플 콜라겐 토탈 텐션 2종 세트, 1세트', 'item_259_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_259_thumbnail.jpg", 30, 259);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('한율 어린쑥 수분진정 2종 세트 토너 + 플루이드, 1세트', 'item_260_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_260_thumbnail.jpg", 30, 260);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('참존 탑클래스 7세대 리프팅 스킨케어 4종 선물세트, 1세트', 'item_261_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_261_thumbnail.jpg", 30, 261);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('편강율 진정 라인 기초 화장품 선물 3종 세트, 1세트', 'item_262_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_262_thumbnail.jpg", 30, 262);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('오휘 익스트림 화이트 기초화장품 2종 세트, 1세트', 'item_263_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_263_thumbnail.jpg", 30, 263);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('케어존 닥터 솔루션 R아큐어 2종 기초 세트, 1세트', 'item_264_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_264_thumbnail.jpg", 30, 264);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('설화수 윤조 기초화장품 3종 세트, 1세트', 'item_265_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_265_thumbnail.jpg", 30, 265);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('크리스마 3코튼 엠보 화장솜, 500매, 1개', 'item_266_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_266_thumbnail.jpg", 30, 266);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('메이 쫀쫀 마스크팩 화장솜, 100개입, 3개', 'item_267_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_267_thumbnail.jpg", 30, 267);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('메디플라워 엠보싱 소프트 화장솜, 300매, 4개', 'item_268_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_268_thumbnail.jpg", 30, 268);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('뿌띠슈 쥬시글로스 01 레드루비 3.2g, 2개', 'item_269_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_269_thumbnail.jpg", 30, 269);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('리틀블링 시크릿쥬쥬 별의여신 유아립밤 5.5g, 5개', 'item_270_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_270_thumbnail.jpg", 30, 270);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('밀크바오밥 베이비 앤 키즈 카밍 립밤, APPLE/사과향, 3.5g, 5개', 'item_271_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_271_thumbnail.jpg", 30, 271);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('아토팜 촉촉한 키즈 컬러 립밤 레드 3.3gx2개, 2개', 'item_272_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_272_thumbnail.jpg", 30, 272);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('아텍스 핑크퐁 아기상어 립케어 딸기향 2종 세트 3.8g, 2세트, 7.6g', 'item_273_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_273_thumbnail.jpg", 30, 273);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('코코힐리 아기 립밤 어린이 유아 컬러 립케어 오렌지 핑크, 3g, 5개', 'item_274_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_274_thumbnail.jpg", 30, 274);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('로즈 멀티퍼포즈 프레쉬 미스트, 50ml, 1개', 'item_275_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_275_thumbnail.jpg", 30, 275);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('맥 텐더토크 립 밤, 프리티 미 업, 3g, 1개', 'item_276_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_276_thumbnail.jpg", 30, 276);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('에이지 어웨이 에스테틱 3종 세트, 1세트', 'item_277_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_277_thumbnail.jpg", 30, 277);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('맥 파우더 키스 립스틱, 헬시 웰시 엔드 쓰라이빙, 3g, 1개', 'item_278_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_278_thumbnail.jpg", 30, 278);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('숨37도 시크릿 에센스 45ml 세트, 1세트', 'item_279_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_279_thumbnail.jpg", 30, 279);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('록시땅 체리블라썸 핸드크림 + 립 밤 듀오 세트, 1세트', 'item_280_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_280_thumbnail.jpg", 30, 280);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('록시땅 버베나 컬렉션 롤온 오 드 뚜왈렛, 10ml, 1개', 'item_281_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_281_thumbnail.jpg", 30, 281);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('윤조립밤, NO 030 페탈, 3g, 1개', 'item_282_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_282_thumbnail.jpg", 30, 282);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('상백톤업 선크림 SPF50+ PA++++, 50ml, 1개', 'item_283_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_283_thumbnail.jpg", 30, 283);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('빌리프 오일 컨트롤 모이스춰라이저 후레쉬 로션, 125ml, 1개', 'item_284_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_284_thumbnail.jpg", 30, 284);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('아베다 뉴트리플레니쉬 샴푸 딥 모이스처, 1000ml, 1개', 'item_285_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_285_thumbnail.jpg", 30, 285);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('록시땅 체리 블라썸 솝, 50g, 1개', 'item_286_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_286_thumbnail.jpg", 30, 286);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('시세이도 더 퍼펙트 프로텍터 SPF50+ PA++++, 50ml, 1개', 'item_287_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_287_thumbnail.jpg", 30, 287);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('설화수 NEW 퍼펙팅 쿠션 파운데이션 리필 15g, 21N1 베이지, 1개', 'item_288_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_288_thumbnail.jpg", 30, 288);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('맥 170 신테틱 라운디드 슬랜트 브러시, 1개', 'item_289_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_289_thumbnail.jpg", 30, 289);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('맥 픽스 플러스 스테이 오버, 100ml, 1개', 'item_290_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_290_thumbnail.jpg", 30, 290);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('얼티밋 커버 스틱 파운데이션 15g, 1호 밀크베이지, 1개', 'item_291_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_291_thumbnail.jpg", 30, 291);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('맥 미네랄라이즈 블러쉬 4g, 휴머 미, 1개', 'item_292_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_292_thumbnail.jpg", 30, 292);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('얼티밋 핏 롱웨어 진 쿠션 15g + 리필 15g 세트, 01호 라이트 베이지, 1세트', 'item_293_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_293_thumbnail.jpg", 30, 293);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('비오템 아쿠아파워 72H 수분 젤 크림, 50ml, 1개', 'item_294_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_294_thumbnail.jpg", 30, 294);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('바비브라운 퍼펙틀리 디파인드 롱웨어 브라우 펜슬, 마호가니, 1개', 'item_295_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_295_thumbnail.jpg", 30, 295);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('빌리프 UV 프로텍터 스탠바이유 베이직 비비크림 SPF50+ PA++++ 50ml, 1개', 'item_296_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_296_thumbnail.jpg", 30, 296);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('스킨 틴트 컴피 스프레더 15g, 1개', 'item_297_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_297_thumbnail.jpg", 30, 297);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('랩시리즈 데일리 레스큐 에너자이징 페이스 로션, 50ml, 1개', 'item_298_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_298_thumbnail.jpg", 30, 298);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('빌리프 유칼립투스 허벌 익스트랙트 토너, 200ml, 1개', 'item_299_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_299_thumbnail.jpg", 30, 299);
+
+INSERT INTO item_img (org_filename, stored_filename, url, file_size, item_id)
+VALUES ('크리니크 모이스춰 써지 립, 10ml, 1개', 'item_300_thumbnail', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/thumbnail/item_300_thumbnail.jpg", 30, 300);
+
+
+
+#-----------------------------------------
+# insert item_description (151~300)
+
+
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/151/item_151_desc_1.jpg", null, 1, 151);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/151/item_151_desc_2.jpg", null, 2, 151);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/151/item_151_desc_3.jpg", null, 3, 151);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/152/item_152_desc_1.jpg", null, 1, 152);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/152/item_152_desc_2.jpg", null, 2, 152);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/153/item_153_desc_1.jpg", null, 1, 153);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/153/item_153_desc_2.jpg", null, 2, 153);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/154/item_154_desc_1.jpg", null, 1, 154);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/154/item_154_desc_2.jpg", null, 2, 154);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/155/item_155_desc_1.jpg", null, 1, 155);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/155/item_155_desc_2.jpg", null, 2, 155);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/156/item_156_desc_1.jpg", null, 1, 156);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/156/item_156_desc_2.jpg", null, 2, 156);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/157/item_157_desc_1.jpg", null, 1, 157);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/157/item_157_desc_2.jpg", null, 2, 157);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/158/item_158_desc_1.jpg", null, 1, 158);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/159/item_159_desc_1.jpg", null, 1, 159);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/160/item_160_desc_1.jpg", null, 1, 160);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/161/item_161_desc_1.jpg", null, 1, 161);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/162/item_162_desc_1.jpg", null, 1, 162);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/163/item_163_desc_1.jpg", null, 1, 163);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/164/item_164_desc_1.jpg", null, 1, 164);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/165/item_165_desc_1.jpg", null, 1, 165);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/166/item_166_desc_1.jpg", null, 1, 166);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/167/item_167_desc_1.jpg", null, 1, 167);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/168/item_168_desc_1.jpg", null, 1, 168);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/169/item_169_desc_1.jpg", null, 1, 169);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/170/item_170_desc_1.jpg", null, 1, 170);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/171/item_171_desc_1.jpg", null, 1, 171);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/172/item_172_desc_1.jpg", null, 1, 172);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/173/item_173_desc_1.jpg", null, 1, 173);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/174/item_174_desc_1.jpg", null, 1, 174);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/175/item_175_desc_1.jpg", null, 1, 175);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/176/item_176_desc_1.jpg", null, 1, 176);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/177/item_177_desc_1.jpg", null, 1, 177);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/178/item_178_desc_1.jpg", null, 1, 178);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/179/item_179_desc_1.jpg", null, 1, 179);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/180/item_180_desc_1.jpg", null, 1, 180);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/181/item_181_desc_1.jpg", null, 1, 181);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/182/item_182_desc_1.jpg", null, 1, 182);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/183/item_183_desc_1.jpg", null, 1, 183);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/184/item_184_desc_1.jpg", null, 1, 184);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/185/item_185_desc_1.jpg", null, 1, 185);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/186/item_186_desc_1.jpg", null, 1, 186);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/187/item_187_desc_1.jpg", null, 1, 187);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/188/item_188_desc_1.jpg", null, 1, 188);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/189/item_189_desc_1.jpg", null, 1, 189);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/190/item_190_desc_1.jpg", null, 1, 190);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/191/item_191_desc_1.jpg", null, 1, 191);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/192/item_192_desc_1.jpg", null, 1, 192);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/193/item_193_desc_1.jpg", null, 1, 193);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/194/item_194_desc_1.jpg", null, 1, 194);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/195/item_195_desc_1.jpg", null, 1, 195);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/196/item_196_desc_1.jpg", null, 1, 196);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/197/item_197_desc_1.jpg", null, 1, 197);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/198/item_198_desc_1.jpg", null, 1, 198);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/199/item_199_desc_1.jpg", null, 1, 199);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/200/item_200_desc_1.jpg", null, 1, 200);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/201/item_201_desc_1.jpg", null, 1, 201);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/202/item_202_desc_1.jpg", null, 1, 202);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/203/item_203_desc_1.jpg", null, 1, 203);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/204/item_204_desc_1.jpg", null, 1, 204);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/205/item_205_desc_1.jpg", null, 1, 205);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/206/item_206_desc_1.jpg", null, 1, 206);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/207/item_207_desc_1.jpg", null, 1, 207);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/208/item_208_desc_1.jpg", null, 1, 208);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/209/item_209_desc_1.jpg", null, 1, 209);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/210/item_210_desc_1.jpg", null, 1, 210);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/211/item_211_desc_1.jpg", null, 1, 211);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/212/item_212_desc_1.jpg", null, 1, 212);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/213/item_213_desc_1.jpg", null, 1, 213);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/214/item_214_desc_1.jpg", null, 1, 214);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/215/item_215_desc_1.jpg", null, 1, 215);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/216/item_216_desc_1.jpg", null, 1, 216);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/217/item_217_desc_1.jpg", null, 1, 217);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/218/item_218_desc_1.jpg", null, 1, 218);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/219/item_219_desc_1.jpg", null, 1, 219);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/220/item_220_desc_1.jpg", null, 1, 220);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/221/item_221_desc_1.jpg", null, 1, 221);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/222/item_222_desc_1.jpg", null, 1, 222);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/223/item_223_desc_1.jpg", null, 1, 223);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/224/item_224_desc_1.jpg", null, 1, 224);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/225/item_225_desc_1.jpg", null, 1, 225);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/226/item_226_desc_1.jpg", null, 1, 226);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/227/item_227_desc_1.jpg", null, 1, 227);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/228/item_228_desc_1.jpg", null, 1, 228);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/229/item_229_desc_1.jpg", null, 1, 229);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/230/item_230_desc_1.jpg", null, 1, 230);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/231/item_231_desc_1.jpg", null, 1, 231);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/232/item_232_desc_1.jpg", null, 1, 232);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/233/item_233_desc_1.jpg", null, 1, 233);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/234/item_234_desc_1.jpg", null, 1, 234);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/235/item_235_desc_1.jpg", null, 1, 235);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/236/item_236_desc_1.jpg", null, 1, 236);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/237/item_237_desc_1.jpg", null, 1, 237);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/238/item_238_desc_1.jpg", null, 1, 238);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/239/item_239_desc_1.jpg", null, 1, 239);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/240/item_240_desc_1.jpg", null, 1, 240);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/241/item_241_desc_1.jpg", null, 1, 241);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/242/item_242_desc_1.jpg", null, 1, 242);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/243/item_243_desc_1.jpg", null, 1, 243);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/244/item_244_desc_1.jpg", null, 1, 244);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/245/item_245_desc_1.jpg", null, 1, 245);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/246/item_246_desc_1.jpg", null, 1, 246);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/247/item_247_desc_1.jpg", null, 1, 247);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/248/item_248_desc_1.jpg", null, 1, 248);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/249/item_249_desc_1.jpg", null, 1, 249);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/250/item_250_desc_1.jpg", null, 1, 250);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/251/item_251_desc_1.jpg", null, 1, 251);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/252/item_252_desc_1.jpg", null, 1, 252);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/253/item_253_desc_1.jpg", null, 1, 253);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/254/item_254_desc_1.jpg", null, 1, 254);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/255/item_255_desc_1.jpg", null, 1, 255);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/256/item_256_desc_1.jpg", null, 1, 256);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/257/item_257_desc_1.jpg", null, 1, 257);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/258/item_258_desc_1.jpg", null, 1, 258);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/259/item_259_desc_1.jpg", null, 1, 259);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/260/item_260_desc_1.jpg", null, 1, 260);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/261/item_261_desc_1.jpg", null, 1, 261);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/262/item_262_desc_1.jpg", null, 1, 262);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/263/item_263_desc_1.jpg", null, 1, 263);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/264/item_264_desc_1.jpg", null, 1, 264);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/265/item_265_desc_1.jpg", null, 1, 265);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/266/item_266_desc_1.jpg", null, 1, 266);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/267/item_267_desc_1.jpg", null, 1, 267);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/268/item_268_desc_1.jpg", null, 1, 268);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/269/item_269_desc_1.jpg", null, 1, 269);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/270/item_270_desc_1.jpg", null, 1, 270);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/271/item_271_desc_1.jpg", null, 1, 271);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/272/item_272_desc_1.jpg", null, 1, 272);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/273/item_273_desc_1.jpg", null, 1, 273);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/274/item_274_desc_1.jpg", null, 1, 274);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/275/item_275_desc_1.jpg", null, 1, 275);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/276/item_276_desc_1.jpg", null, 1, 276);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/277/item_277_desc_1.jpg", null, 1, 277);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/278/item_278_desc_1.jpg", null, 1, 278);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/279/item_279_desc_1.jpg", null, 1, 279);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/280/item_280_desc_1.jpg", null, 1, 280);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/281/item_281_desc_1.jpg", null, 1, 281);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/282/item_282_desc_1.jpg", null, 1, 282);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/283/item_283_desc_1.jpg", null, 1, 283);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/284/item_284_desc_1.jpg", null, 1, 284);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/285/item_285_desc_1.jpg", null, 1, 285);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/286/item_286_desc_1.jpg", null, 1, 286);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/287/item_287_desc_1.jpg", null, 1, 287);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/288/item_288_desc_1.jpg", null, 1, 288);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/289/item_289_desc_1.jpg", null, 1, 289);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/290/item_290_desc_1.jpg", null, 1, 290);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/291/item_291_desc_1.jpg", null, 1, 291);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/292/item_292_desc_1.jpg", null, 1, 292);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/293/item_293_desc_1.jpg", null, 1, 293);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/294/item_294_desc_1.jpg", null, 1, 294);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/295/item_295_desc_1.jpg", null, 1, 295);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/296/item_296_desc_1.jpg", null, 1, 296);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/297/item_297_desc_1.jpg", null, 1, 297);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/298/item_298_desc_1.jpg", null, 1, 298);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/299/item_299_desc_1.jpg", null, 1, 299);
+
+INSERT INTO item_description (type, url, text, seq, item_id)
+VALUES ('image', "https://commerce-side.s3.ap-northeast-2.amazonaws.com/items/description/300/item_300_desc_1.jpg", null, 1, 300);
+
+
